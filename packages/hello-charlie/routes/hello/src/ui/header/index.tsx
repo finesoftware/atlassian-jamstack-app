@@ -9,7 +9,7 @@ type Props = {
 
 export const Header = ({ onFetchProjects }: Props) => (
     <div>
-        <h1>Hello Charlie! 👋</h1>
+        <h1>Hello Charlie 🍓 🍞</h1>
 
         <p>
             A{' '}

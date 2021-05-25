@@ -2,7 +2,11 @@
 
 <br>
 
-<h1 align="center">Hello Charlie 👋</h1>
+<p align="center">
+  <img src="packages/hello-charlie/libraries/assets/src/assets/logo.png" width=192 />
+</p>
+
+<h1 align="center">Good morning Charlie 🍓 🍞</h1>
 
 <p align="center">A <a href="https://jamstack.org">Jamstack</a>-based sample app for Jira Cloud, based on <a href="https://next.js">next.js</a> ⚛️</p>
 <p align="center">Compatible with <a href="https://developer.atlassian.com/cloud/jira/platform/getting-started-with-connect/">Atlassian Connect</a> and <a href="https://developer.atlassian.com/cloud/jira/platform/getting-started-with-forge/">Atlassian Forge</a></p>
@@ -26,6 +30,10 @@ In this sample app, the same piece of business logic is consumed into two simple
 ## Repository structure
 
 The repo is organised as a `yarn workspaces`-powered monorepo:
+
+##### `libraries/connect-api`
+
+A simple wrapper around Connect's [Javascript API](https://developer.atlassian.com/cloud/jira/platform/about-the-connect-javascript-api/). Exists to create type-safety and hide access to a global variable (`window.AP`) from consumers.
 
 ##### `libraries/jira-request(-api/-forge/-connect)`
 
