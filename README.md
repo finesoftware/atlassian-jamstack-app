@@ -27,6 +27,10 @@ In this sample app, the same piece of business logic is consumed into two simple
 
 The repo is organised as a `yarn workspaces`-powered monorepo:
 
+##### `libraries/connect-api`
+
+A simple wrapper around Connect's [Javascript API](https://developer.atlassian.com/cloud/jira/platform/about-the-connect-javascript-api/). Exists to create type-safety and hide access to a global variable (`window.AP`) from consumers.
+
 ##### `libraries/jira-request(-api/-forge/-connect)`
 
 The stub implementation (`jira-request`), API (`*-api`), and Connect and Forge implementations (`*-connect`, `*-forge`) of the app's abstraction around [Jira's REST API](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/). Exposes a single `request` method that takes the URL of the REST endpoint and an optional `Options` object:
