@@ -1,0 +1,6 @@
+node_modules
+yarn-error.log
+.next
+
+/packages/hello-charlie/services/connect/site/out
+/packages/hello-charlie/services/forge/app/resources

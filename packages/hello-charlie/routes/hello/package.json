@@ -1,0 +1,14 @@
+{
+    "name": "@hello-charlie/route-hello",
+    "version": "0.1.0",
+    "main": "src/index.tsx",
+    "private": true,
+    "sideEffects": false,
+    "dependencies": {
+        "@atlaskit/button": "^15.1.6",
+        "@hello-charlie/assets": "0.1.0",
+        "@hello-charlie/jira-request": "0.1.0",
+        "@hello-charlie/react-link": "0.1.0",
+        "react": "^17.0.2"
+    }
+}

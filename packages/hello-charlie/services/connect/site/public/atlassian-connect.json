@@ -1,0 +1,26 @@
+{
+    "name": "Hello Charlie",
+    "description": "A sample Connect app for Jira Cloud, based on a Jamstack architecture",
+    "key": "org.example.hello-charlie",
+    "baseUrl": "<your-base-url>",
+    "authentication": {
+        "type": "none"
+    },
+    "enableLicensing": false,
+    "scopes": [
+        "read"
+    ],
+    "apiVersion": 1,
+    "modules": {
+        "jiraProjectPages": [
+            {
+                "key": "h",
+                "url": "/hello",
+                "weight": 1,
+                "name": {
+                    "value": "Hello Charlie"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "@hello-charlie/jira-request-forge",
+    "version": "0.1.0",
+    "main": "src/index.ts",
+    "sideEffects": false,
+    "dependencies": {
+        "@forge/bridge": "^1.5.0",
+        "@hello-charlie/jira-request-api": "0.1.0"
+    }
+}

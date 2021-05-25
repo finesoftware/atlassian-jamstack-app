@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "ES2020",
+            "dom"
+        ],
+        "jsx": "react",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "baseUrl": "."
+    }
+}

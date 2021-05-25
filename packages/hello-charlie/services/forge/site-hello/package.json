@@ -1,0 +1,25 @@
+{
+    "name": "@hello-charlie/forge-site-hello",
+    "version": "0.1.0",
+    "private": true,
+    "sideEffects": false,
+    "dependencies": {
+        "@atlaskit/css-reset": "^6.0.5",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/preset-typescript": "^7.13.0",
+        "@hello-charlie/jira-request-forge": "0.1.0",
+        "@hello-charlie/react-link-forge": "0.1.0",
+        "@hello-charlie/route-hello": "0.1.0",
+        "@hello-charlie/route-index": "0.1.0",
+        "babel-loader": "^8.2.2",
+        "next": "^10.2.2",
+        "next-images": "^1.7.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "styled-components": "3.5.0-0"
+    },
+    "notes": [
+        "styled-components is needed for @atlaskit/button to work"
+    ]
+}

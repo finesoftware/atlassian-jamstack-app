@@ -1,0 +1,11 @@
+{
+    "name": "@hello-charlie/react-link-forge",
+    "version": "0.1.0",
+    "main": "src/index.tsx",
+    "sideEffects": false,
+    "dependencies": {
+        "@forge/bridge": "^1.5.0",
+        "@hello-charlie/react-link-api": "0.1.0",
+        "react": "^17.0.2"
+    }
+}

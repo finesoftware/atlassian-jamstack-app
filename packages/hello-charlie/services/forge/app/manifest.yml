@@ -1,0 +1,20 @@
+modules:
+  jira:projectPage:
+    - key: hello-page
+      resolver:
+        function: resolver
+      resource: hello-resource
+      title: Hello Charlie
+      layout: basic
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: hello-resource
+    path: resources/hello
+app:
+  id: <your-app-id>
+  name: Hello Charlie
+permissions:
+  scopes:
+    - read:jira-work

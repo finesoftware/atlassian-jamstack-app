@@ -1,0 +1,9 @@
+{
+    "name": "@hello-charlie/react-link-api",
+    "version": "0.1.0",
+    "main": "src/index.ts",
+    "sideEffects": false,
+    "dependencies": {
+        "react": "^17.0.2"
+    }
+}
