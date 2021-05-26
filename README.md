@@ -19,6 +19,11 @@ The Atlassian ecosystem, which runs app experiences in `iframes` within the host
 
 Jamstack-based Connect apps fetch their resources from a CDN, and then invoke their own backends, as well as the host product's APIs, via Ajax. Forge apps are fundamentally different from Connect apps, in that Forge apps are deployed _into_ Atlassian infrastructure - meaning that app developers no longer need to provide their own CDN or SaaS infrastructure. For Jamstack-based apps, however, this is only a minor implementation detail - apps are _still_ fetched from a CDN, and apps _still_ invoke their backends via Ajax calls. If the platform-specific integration points are abstracted away behind common APIs, an app's business logic can remain largely unaffected by the underlying extension framework.
 
+<p align="center">
+  <img src="packages/hello-charlie/libraries/assets/src/assets/overview.gif" width=600 />
+</p>
+
+
 In this sample app, the same piece of business logic is consumed into two simple next.js apps; one for Connect, and one for Forge. These next.js apps are only lightweight "shells" around the business logic; their main responsibility, beyond providing next.js' Jamstack infrastructure, is
 
 1. to perform Connect- or Forge-specific set up steps, e.g. in the page `header`.
