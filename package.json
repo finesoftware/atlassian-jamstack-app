@@ -13,7 +13,7 @@
         "@forge/resolver": "^1.2.0",
         "@types/react": "^17.0.6",
         "babel-loader": "^8.2.2",
-        "next": "^10.2.2",
+        "next": "^15.5.24",
         "next-images": "^1.7.0",
         "prettier": "^2.3.0",
         "react": "^17.0.2",
